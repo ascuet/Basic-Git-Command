@@ -46,6 +46,8 @@ $ git merge origin <branch-1>                       # Merge remote 'branch-1' wi
 $ git mergetool
 $ git merge --squash <privateFeatureBranch>
 
+# Set local folder to response remote url
+git remote set-url origin git@XXXXXXXXXXXX
 
 $ git checkout <commit-hash>               # Go to a specific commit
 $ git checkout <branch-name>               # Return to present state
